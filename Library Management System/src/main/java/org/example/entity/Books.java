@@ -1,10 +1,19 @@
 package org.example.entity;
 
 public class Books {
+    private String id;
     private String title;
     private String author;
     private Integer count;
     private Integer price;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public Integer getCount() {
         return count;
