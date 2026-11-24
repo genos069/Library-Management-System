@@ -7,6 +7,17 @@ public class Books {
     private Integer count;
     private Integer price;
 
+    public Books(){}
+    public Books(String title,String author,Integer count,Integer price){
+        Books book = new Books();
+
+        book.setAuthor(author);
+        book.setCount(count);
+        book.setPrice(price);
+        book.setCount(count);
+    }
+
+
     public String getId() {
         return id;
     }
